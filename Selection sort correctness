@@ -1,0 +1,18 @@
+Loop Invariant method to determine the correctness of selection sort
+The loop invariant method holds that is true at the beginning and at the end of each iteration of a loop.loop invariant can be used to prove the correctness of the selection sort.
+loop invariant:
+
+Before the i-th iteration  The first i elements of the array are sorted in an increasing order.
+Base Case:
+Before the first iteration (i = 0): The array is empty and  the invariant is correct and relevant.
+Induction Step:
+lets think that the invariant is still relevant before the i-th iteration.
+During the i-th iteration:
+We find the minimum element in the unsorted part of the array  [i to n-1].
+We interchange the minimum element with the element at index i.
+After the i-th iteration:
+The first i elements are still sorted (since we swapped the minimum element with the element at index i).
+The (i+1)-th element is now the smallest element among the remaining elements.
+Therefore, the invariant holds for the (i+1)-th iteration.
+Termination
+After the (n-1)-th iteration: The entire array is sorted, as the invariant guarantees that the first n-1 elements are sorted and the last element is the largest.
