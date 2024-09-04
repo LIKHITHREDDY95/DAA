@@ -1,3 +1,14 @@
+Device name	LAPTOP-AROKF1PB
+Processor	AMD Ryzen 5 4600H with Radeon Graphics            3.00 GHz
+Installed RAM	16.0 GB (15.4 GB usable)
+Device ID	DC8AAA94-867B-4EF8-AF69-2D3FFCBAAA75
+Product ID	00327-35890-39899-AAOEM
+System type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display
+
+
+
+
 Loop Invariant
 A loop invariant is a condition that is true at the beginning , end of each iteration of a loop. a loop invariant to prove the correctness of the selection sort 
 Before the i-th iteration: The first i elements of the array are sorted in increasing order.
